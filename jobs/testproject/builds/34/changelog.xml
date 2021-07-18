@@ -1,0 +1,18 @@
+commit fda1609479cfd8580a2dc977bbfd82ef14afbafd
+tree d872f13103a80a99003b54fb02eb00832e416cae
+parent 536473501b88158f32358cb591ad91d8d0eaa882
+author kumarvirendra186 <87355368+kumarvirendra186@users.noreply.github.com> 2021-07-17 21:27:21 +0530
+committer GitHub <noreply@github.com> 2021-07-17 21:27:21 +0530
+
+    Update big3.c
+
+:100644 100644 fc36dc6940d1cfd4b1545d8bbfdb82692698a31c 89a3c3ecab74f4342bc341ef6b6f349d1ad33f6d M	big3.c
+commit 536473501b88158f32358cb591ad91d8d0eaa882
+tree d38d7d1fa619738436cdfbed2915b2ae120fa15e
+parent 1b5bdb539ade79b874fd4b530e32c0600da6cba3
+author kumarvirendra186 <87355368+kumarvirendra186@users.noreply.github.com> 2021-07-17 21:24:09 +0530
+committer GitHub <noreply@github.com> 2021-07-17 21:24:09 +0530
+
+    Update fact.c
+
+:100644 100644 f58318e286bb2c00bcc61f1c9bb5325e401246ff 686b5eef838cac827ff31e1a3c744dd4601a5edd M	fact.c

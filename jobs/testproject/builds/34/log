@@ -1,0 +1,25 @@
+Started by GitHub push by kumarvirendra186
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/testproject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/testproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kumarvirendra186/project1.git # timeout=10
+Fetching upstream changes from https://github.com/kumarvirendra186/project1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/kumarvirendra186/project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fda1609479cfd8580a2dc977bbfd82ef14afbafd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fda1609479cfd8580a2dc977bbfd82ef14afbafd # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 1b5bdb539ade79b874fd4b530e32c0600da6cba3 # timeout=10
+[testproject] $ /bin/sh -xe /tmp/jenkins9181447800657952801.sh
++ cd /var/lib/jenkins/workspace/testproject
++ make
+gcc -c big3.c
+gcc -c fact.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS
